@@ -1,8 +1,7 @@
 <!doctype html>
 <html>
 <head>
-<title>Project 3</title>
-
+<title>Brian Port</title>
 
 	<style type="text/css">
 
@@ -29,9 +28,13 @@
 	}
 
 	footer {
-		height: 100px;
-		background-color: 728081;
+		height: 120px;
+		background: linear-gradient(#728081, black);
 		margin-top: 5px;
+	}
+
+	a {
+		color: blue;
 	}
 
 	#main_info {
@@ -42,7 +45,6 @@
 	}
 
 	.section_content {
-		width: 70%;
 		height: 100%;
 		padding: 5px;
 		margin-bottom: 5px;
@@ -62,9 +64,14 @@
 	}
 
 	#cert_img {
-		height: 90px;
+		height: 100px;
+		padding-top: 10px;
+	}
+
+	#cert_img2 {
+		height: 100px;
 		float: right;
-		padding-top: 5px;
+		padding-top: 10px;
 	}
 	
 	.cap_text {
@@ -81,8 +88,17 @@
 	</header>
 	<article>
 		<section>
+			<p class="section_content">
+				This is a website I designed while in a Web Development Bootcamp at Wake Technical Community College where I received MTA certifications in Software Development Fundamentals and HTML5 Application Development Fundamentals. It was created to display some of the concepts and practices I have learned in the class. It also allows me to  display my work experiences, some insight into my life, and give people a way to contact me.
+			</p>
+			<a id="project_link" href="pg2.html">Work Experience</a><br>
+			<a id="project_link" href="https://www.linkedin.com/in/brian-port-5b718014b/">My Linkedin Page</a><br>
+			<a id="project_link" href="mailto:brianpport@gmail.com">Contact Me</a>
+
+		</section>
+		<section>
 			<h3 class="section_title">Project One</h3>
-			<img class="project_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl3QYdFq2_t6bYg7ZgTBiFssP4x0THE3XamPO9fRR1cg2yEjN9">
+			<img class="project_img" src="proj1.jpg">
 				<figcaption class="cap_text">Visual Representation of wake turbulence<br>and wingtip vortices</figcaption>
 			<p class="section_content">
 			This is a text game written in C#. It asks questions about weather relating to aviation. The test only continues on correct answers and counts how many questions you answered correctly on your first try.
@@ -91,7 +107,7 @@
 		</section>
 		<section>
 			<h3 class="section_title">Project Two</h3>
-			<img class="project_img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_K7oILZxYzIysAaZJ_pEzC4ETjZYKsrjlrDLBzW_EFLw9Z3b8rA">
+			<img class="project_img" src="proj2.jpg">
 			<figcaption class="cap_text">Visual representation of an old text editor</figcaption>
 			<p class="section_content">
 			This is a basic text editor written in Visual Basic. It has features including opening and saving text files and can change text fonts, colors, and styles. It also contains a find string and find and replace function.
@@ -100,7 +116,8 @@
 		</section>
 		</article>
 		<footer>
-			<img id="cert_img" src="https://acclaim-production-app.s3.amazonaws.com/images/dd81e911-710a-4657-bbf9-a4d28416257a/MTA%2BSoftware%2BDevelopment%2BFundamentals-01-2.png">
+			<img id="cert_img2" src="software_cert.png">
+			<img id="cert_img" src="html5_cert.png">
 		</footer>
 </body>
 </html>
